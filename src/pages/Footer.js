@@ -1,13 +1,24 @@
 import React from 'react'
 import '../Style/App.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
+ import 'bootstrap/dist/css/bootstrap.min.css';
+import { gsap } from "gsap";
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
-// import '../css/App2.css'
+import { FaBeer } from 'react-icons/fa';
+
+import { motion } from "framer-motion"
+// import * as motion from "framer-motion/client"
+
+// import '../Style/App2.css'
 
 
 const Footer = () => {
   return (
-    <div>
+    // <div class="body">
+    //     <div class='nk-wrap'>
         <footer class="nk-footer">
             <section class="section section-sm section-footer">
                 <div class="container container-xxl">
@@ -34,10 +45,10 @@ const Footer = () => {
                                 <div class="wgs-body">
                                     <ul class="wgs-links wgs-links-s6">
                                         
-                                        <li><a href="#learnWithYukti">Learn with युkti</a></li>
+                                        {/* <li><a href="#learnWithYukti">Learn with युkti</a></li>
                                         <li><a href="#chatWithYukti">Chat with युkti</a></li>
                                         <li><a href="#codeWithYukti">Code with युkti</a></li>
-                                        <li><a href="#careerWithYukti">Career with युkti</a></li>
+                                        <li><a href="#careerWithYukti">Career with युkti</a></li> */}
                                        
                                         <li><a href="https://ai.debugshala.com/signup" target="_blank">Learn with युkti</a></li>
                                         <li><a href="https://ai.debugshala.com/signup" target="_blank">Chat with युkti</a></li>
@@ -101,7 +112,8 @@ const Footer = () => {
                 </div>
             </section>
         </footer>
-    </div>
+    // </div>
+    // </div>
   )
 }
 

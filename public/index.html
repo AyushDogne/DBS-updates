@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- <link rel="stylesheet" href="https://ai.debugshala.com/templates/classic-theme/assets/css/vendor.bundle.css?ver=210"> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -10,34 +16,168 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
+    <link rel="shortcut icon" href="https://ai.debugshala.com/templates/classic-theme/assets/images/favicon.svg">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link rel="stylesheet" href="https://ai.debugshala.com/templates/classic-theme/assets/css/theme.css?ver=210">
+    <link rel="stylesheet" href="https://ai.debugshala.com/templates/classic-theme/assets/css/style.css?ver=210">
+
+    <script src="https://kit.fontawesome.com/08f89c1702.js" crossorigin="anonymous"></script>
+    <script src="https://ai.debugshala.com/templates/classic-theme/assets/js/jquery.bundle.js?ver=210"></script>
+    <script src="https://ai.debugshala.com/templates/classic-theme/assets/js/scripts.js?ver=210"></script>
+    <script src="https://ai.debugshala.com/templates/classic-theme/assets/js/charts.js?ver=210"></script>
+    <script src="https://ai.debugshala.com/templates/classic-theme/assets/js/charts.js?ver=210"></script>
+
+
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "WebSite",
+        "name": "Yukti by Debugshala",
+        "url": "https://ai.debugshala.com/",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://ai.debugshala.com/{search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+      </script>
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/", 
+        "@type": "BreadcrumbList", 
+        "itemListElement": [{
+          "@type": "ListItem", 
+          "position": 1, 
+          "name": "Connect with Yukti",
+          "item": "https://ai.debugshala.com/signup"  
+        },{
+          "@type": "ListItem", 
+          "position": 2, 
+          "name": "Chat with Yukti",
+          "item": "https://ai.debugshala.com/#chatWithYukti"  
+        },{
+          "@type": "ListItem", 
+          "position": 3, 
+          "name": "Code with Yukti",
+          "item": "https://ai.debugshala.com/#codeWithYukti"  
+        }]
+      }
+      </script>
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ResearchProject",
+        "name": "Yukti by Debugshala",
+        "alternateName": "Yukti AI",
+        "url": "https://ai.debugshala.com/",
+        "logo": "https://ai.debugshala.com/templates/classic-theme/assets/images/logo_dark.svg",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91 8982385539",
+          "contactType": "customer service",
+          "contactOption": "TollFree",
+          "areaServed": "IN",
+          "availableLanguage": "en"
+        },
+        "sameAs": [
+          "https://www.instagram.com/debugshala/",
+          "https://www.linkedin.com/company/debugshala/",
+          "https://ai.debugshala.com/"
+        ]
+      }
+      </script>
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Yukti by Debugshala",
+        "image": "https://ai.debugshala.com/templates/classic-theme/assets/images/logo_dark.svg",
+        "@id": "",
+        "url": "https://ai.debugshala.com/",
+        "telephone": "+918982385539",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "C.S Naidu Arcade, 204, Greater Kailash Road, Opposite Grotto",
+          "addressLocality": "Indore",
+          "postalCode": "452001",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 22.7251688,
+          "longitude": 75.8904883
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        },
+        "sameAs": [
+          "https://www.facebook.com/debugshala/",
+          "https://www.instagram.com/debugshala/",
+          "https://www.twitter.com/debugshala/",
+          "https://www.linkedin.com/company/debugshala/"
+        ] 
+      }
+      </script>
+
+
+      <script>
+        $(function(){
+     //   $("#login-popup").modal('show')
+       $("#contact-form-01").submit(function(e){
+       e.preventDefault();
+       let fterror=1;
+    if($("#contact_name").val()==''){fterror=0;}
+    if($("#contact_email").val()==''){fterror=0;}
+    if($("#contact_number").val()==''){fterror=0;}
+    if($("#contact_message").val()==''){fterror=0;}
+
+    if(fterror==1){
+        
+        //old  script https://script.google.com/macros/s/AKfycbzn45Kb5sDgzqVawhVJoqcYif-c2oYi5QmsqNE5kYleqZ9UGss036irAqArPmu183-A8Q/exec
+  $.post('https://script.google.com/macros/s/AKfycbwN50EFL0hTXqHg5kEZF4wxAvZD2bH_NeT4ko4iUfvbSJCZklH_ZLki1_jcTUSBWc7pZQ/exec',{name:$("#contact_name").val(),email:$('#contact_email').val(),mobile:$('#contact_number').val(),intrestedin:'aidebugshala',background:'IT',message:$("#contact_message").val()},function(){
+
+    $('.ft-sucess').fadeIn()
+    
+    $("#contact_name").val('')
+    $("#contact_email").val('')
+    $("#contact_number").val('')
+    $("#contact_message").val('')
+    
+$('.ft-sucess').text('contact very soon').fadeOut(4000);
+  })
+
+
+}
+       })
+        })
+        
+        </script>
+     <style>.ft-sucess{display:none;}</style>
+
+
+
+
     <title>React App</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>

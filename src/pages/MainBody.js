@@ -1,12 +1,18 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import '../Style/App.css'
+import { gsap } from "gsap";
+import { motion } from "framer-motion"
+import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
+import Collapses from './Collapses';
 
 const MainBody = () => {
     return (
-        <div>
+        <div class="body">
+        <div class='nk-wrap'>
             <main className="nk-pages">
-                <div className="section bg-light section-sm">
+                {/* <div className="section bg-light section-sm">
                     <div className="container container-xxl">
                         <ul className="d-flex flex-wrap flex-lg-nowrap justify-content-center justify-content-xl-between gaps gy-4 gx-6 py-4">
                             <li className="animated" data-animate="fadeInUp" data-delay=".1">
@@ -26,7 +32,7 @@ const MainBody = () => {
                             </li>
                         </ul>
                     </div>
-                </div>
+                </div> */}
                 <div id="learnWithYukti" class="section section-m bg-white pb-0 ov-h">
                     <div class="container container-xxl">
                         <div class="section-head">
@@ -380,6 +386,7 @@ const MainBody = () => {
                                     <div class="tab-content animated" data-animate="fadeInUp" data-delay=".5">
                                         <div class="tab-pane fade show active" id="general-questions-13">
                                             <div class="accordion accordion-faq" id="faq-47">
+                                            {/* <Collapses/> */}
                                                 <div class="accordion-item accordion-item-s2 bg-white">
                                                     <h5 class="accordion-title accordion-title-sm" data-bs-toggle="collapse" data-bs-target="#faq-47-1"> What can Yukti help me with regarding my career? <span class="accordion-icon accordion-icon-s2"></span>
                                                     </h5>
@@ -388,8 +395,8 @@ const MainBody = () => {
                                                             <p>Yukti can provide guidance on career choices, resume building, job search strategies, interview preparation, and professional development.</p>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="accordion-item accordion-item-s2 bg-white">
+                                                </div> 
+                                                 <div class="accordion-item accordion-item-s2 bg-white">
                                                     <h5 class="accordion-title accordion-title-sm collapsed" data-bs-toggle="collapse" data-bs-target="#faq-47-2"> How can I get career advice from Yukti? <span class="accordion-icon accordion-icon-s2"></span>
                                                     </h5>
                                                     <div id="faq-47-2" class="collapse" data-bs-parent="#faq-47">
@@ -417,6 +424,10 @@ const MainBody = () => {
                                                     </div>
                                                 </div>
                                             </div>
+
+
+
+
                                         </div>
                                         <div class="tab-pane fade" id="ico-questions-13">
                                             <div class="accordion accordion-faq" id="faq-48">
@@ -629,6 +640,8 @@ const MainBody = () => {
                 </div>
             </div>
         </div>
+        </div>
+        
     )
 }
 

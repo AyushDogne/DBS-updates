@@ -1,0 +1,13 @@
+.collaps-label
+{
+    font-size: 30px;
+    color: #415076;
+    transition: all 0.4s;
+    margin-top: 20px;
+}
+.collaps-p
+{
+    font-size: 20px;
+    color: #415076;
+    transition: all 0.4s;
+}
