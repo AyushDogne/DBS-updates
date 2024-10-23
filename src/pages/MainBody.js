@@ -1,5 +1,8 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 import '../Style/App.css'
 import { gsap } from "gsap";
@@ -38,7 +41,7 @@ const MainBody = () => {
                         <div class="section-head">
                             <div class="row justify-content-between">
                                 <div class="col-lg-5">
-                                    <h6 class="title title-xs title-s1 tc-primary animated" data-animate="fadeInUp" data-delay=".1">Learn Anything</h6>
+                                    <h6 class="title title-xs title-s1 tc-primary animated" data-animate="fadeInUp" data-delay=".1"><span className='Learn-Anything'>Learn Anything</span></h6>
                                     <h2 class="title title-semibold animated" data-animate="fadeInUp" data-delay=".5">Empowering Your Career Journey!</h2>
                                     <p class="mb-0 mt-n2 d-lg-none animated" data-animate="fadeInUp" data-delay=".6">Learn with Yukti Career Assistant is your dedicated partner on the journey to career success. Whether you're exploring new skills, preparing for interviews, or seeking expert guidance, Yukti is here to empower you. Get ready to elevate your career prospects, one step at a time, with personalized learning and actionable insights. With Yukti, your career goals are within reach.</p>
                                 </div>
@@ -199,8 +202,8 @@ const MainBody = () => {
                                 <div class="col-md-6">
 
                                     <div class="nk-block-text">
-                                        <h6 class="title title-xs title-s1 tc-primary animated" data-animate="fadeInUp" data-delay=".2">Ask Anything (Personal Assistant)</h6>
-                                        <h2 class="title animated" data-animate="fadeInUp" data-delay=".3">Chat with युkti</h2>
+                                        <h6 class="title title-xs title-s1 tc-primary animated" data-animate="fadeInUp" data-delay=".2"><span className='Ask-Anything-Personal-Assistant'>Ask Anything (Personal Assistant)</span></h6>
+                                        <h2 class="title animated" data-animate="fadeInUp" data-delay=".3"><span className='Chat-with-युkti'>Chat with युkti</span></h2>
                                         <p class="animated" data-animate="fadeInUp" data-delay=".4">युkti use artificial intelligence to understand and respond to your questions and conversations. युkti this feature are really helpful because they can give you instant and personalized help.</p>
                                         <p class="animated" data-animate="fadeInUp" data-delay=".5">युkti offer a diverse range of specialized topics across various fields.
                                             Eg. Interview Guide, Personal Mentor, Career Mentor, Programming Expert, DataScience Expert etc.</p>
@@ -218,8 +221,8 @@ const MainBody = () => {
                                 <div class="col-md-6">
 
                                     <div class="nk-block-text">
-                                        <h6 class="title title-xs title-s1 tc-primary animated" data-animate="fadeInUp" data-delay=".2">Personal Developer</h6>
-                                        <h2 class="title animated" data-animate="fadeInUp" data-delay=".3">Code with युkti</h2>
+                                        <h6 class="title title-xs title-s1 tc-primary animated" data-animate="fadeInUp" data-delay=".2"><span className='Personal-Developer'>Personal Developer</span></h6>
+                                        <h2 class="title animated" data-animate="fadeInUp" data-delay=".3"> <span className='Code-with-युkti'>Code with युkti</span></h2>
                                         <p class="animated" data-animate="fadeInUp" data-delay=".4">युkti has completely changed the game for beginners when it comes to writing code. With its AI code generator, beginners can now create code faster and more accurately than ever before.</p>
                                         <p class="animated" data-animate="fadeInUp" data-delay=".5">This exciting technology has made coding easier and more enjoyable, allowing developers to bring their ideas to life quickly and with precision. युkti is here to make coding fun and efficient for everyone!</p>
                                     </div>
@@ -237,8 +240,8 @@ const MainBody = () => {
                                 <div class="col-md-6">
 
                                     <div class="nk-block-text">
-                                        <h6 class="title title-xs title-s1 tc-primary animated" data-animate="fadeInUp" data-delay=".2">Get Dream Job</h6>
-                                        <h2 class="title animated" data-animate="fadeInUp" data-delay=".3">Career with युkti</h2>
+                                        <h6 class="title title-xs title-s1 tc-primary animated" data-animate="fadeInUp" data-delay=".2"><span className='Get-Dream-Job'>Get Dream Job</span></h6>
+                                        <h2 class="title animated" data-animate="fadeInUp" data-delay=".3"><span className='Career-with-युkti'>Career with युkti</span></h2>
                                         <p class="animated" data-animate="fadeInUp" data-delay=".4">युkti has transformed the way people navigate their career journeys. With its cutting-edge career guidance platform, individuals can now access personalized advice and insights to help them make informed career choices.</p>
                                         <p class="animated" data-animate="fadeInUp" data-delay=".5">This innovative technology has made career planning more accessible and user-friendly, empowering individuals to chart their paths with confidence and clarity. युkti is here to make career guidance a seamless and enriching experience for everyone!</p>
                                     </div>
@@ -252,8 +255,8 @@ const MainBody = () => {
                     <div class="background-shape bs-reverse"></div>
                     <div class="container">
                         <div class="section-head section-head-s9 wide-sm">
-                            <h6 class="title title-xs title-s1 tc-primary animated" data-animate="fadeInUp" data-delay=".1">How?</h6>
-                            <h2 class="title animated" data-animate="fadeInUp" data-delay=".2">How Does it works?</h2>
+                            <h6 class="title title-xs title-s1 tc-primary animated" data-animate="fadeInUp" data-delay=".1"> <span className='How'>How?</span></h6>
+                            <h2 class="title animated" data-animate="fadeInUp" data-delay=".2" className='How-Does-it-works'><span style={{marginRight:"40px"}}>How Does it works?</span></h2>
                             <p class="animated" data-animate="fadeInUp" data-delay=".3">You need to follow a few simple steps to generate your content. Start with युkti  and get personalized help.</p>
                         </div>
 
@@ -310,8 +313,8 @@ const MainBody = () => {
                 <section class="sectionbg-white" id="benifits">
                     <div class="container">
                         <div class="section-head section-head-s9 wide-sm">
-                            <h6 class="title title-xs title-s1 tc-primary animated" data-animate="fadeInUp" data-delay=".1">Features</h6>
-                            <h2 class="title animated" data-animate="fadeInUp" data-delay=".2">युkti key features</h2>
+                            <h6 class="title title-xs title-s1 tc-primary animated" data-animate="fadeInUp" data-delay=".1"><span className='Features'>Features</span></h6>
+                            <h2 class="title animated" data-animate="fadeInUp" data-delay=".2" className='युkti-key-features'>युkti key features</h2>
                             <p class="animated" data-animate="fadeInUp" data-delay=".3">Unlock Career Success with AI-Powered Guidance and Code Generation.</p>
                         </div>
 
@@ -366,10 +369,10 @@ const MainBody = () => {
                 <section class="section bg-light" id="faqs">
                     <div class="container">
                         <div class="section-head section-head-s9 wide-md">
-                            <h6 class="title title-xs title-s1 tc-primary animated" data-animate="fadeInUp" data-delay=".1">FAQ</h6>
-                            <h2 class="title animated" data-animate="fadeInUp" data-delay=".2">Frequently asked questions</h2>
+                            <h6 class="title title-xs title-s1 tc-primary animated" data-animate="fadeInUp" data-delay=".1"><span  className='FAQ'>FAQ</span></h6>
+                            <h2 class="title animated" data-animate="fadeInUp" data-delay=".2" className='Frequently-asked-questions'>Frequently asked questions</h2>
                             <div class="wide-sm">
-                                <p class="animated" data-animate="fadeInUp" data-delay=".3">Your Guide to Yukti's Features and Assistance.</p>
+                                <p class="animated" data-animate="fadeInUp" data-delay=".3" className='Your-Guide-to-Yukti-Features-and-Assistance'>Your Guide to Yukti's Features and Assistance.</p>
                             </div>
                         </div>
 
@@ -386,8 +389,8 @@ const MainBody = () => {
                                     <div class="tab-content animated" data-animate="fadeInUp" data-delay=".5">
                                         <div class="tab-pane fade show active" id="general-questions-13">
                                             <div class="accordion accordion-faq" id="faq-47">
-                                            {/* <Collapses/> */}
-                                                <div class="accordion-item accordion-item-s2 bg-white">
+                                            <Collapses/>
+                                                {/* <div class="accordion-item accordion-item-s2 bg-white">
                                                     <h5 class="accordion-title accordion-title-sm" data-bs-toggle="collapse" data-bs-target="#faq-47-1"> What can Yukti help me with regarding my career? <span class="accordion-icon accordion-icon-s2"></span>
                                                     </h5>
                                                     <div id="faq-47-1" class="collapse show" data-bs-parent="#faq-47">
@@ -422,7 +425,7 @@ const MainBody = () => {
                                                             <p>Yes, Yukti can assist you in creating a career roadmap and setting achievable goals for your professional growth.</p>
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
 
 

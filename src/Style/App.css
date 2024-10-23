@@ -21091,6 +21091,10 @@ hr + .nk-block {
   .nk-preview:first-child {
     padding-top: 60px;
   }
+  .Code-with-युkti
+  {
+    margin: auto;
+  }
 }
 
 @media (min-width: 768px) {
@@ -21099,6 +21103,10 @@ hr + .nk-block {
   }
   .nk-preview:first-child {
     padding-top: 90px;
+  }
+  .Code-with-युkti
+  {
+    margin: auto;
   }
 }
 
@@ -21109,6 +21117,10 @@ hr + .nk-block {
   .nk-preview:first-child {
     padding-top: 120px;
   }
+  .Code-with-युkti
+  {
+    margin: auto;
+  }
 }
 
 @media (min-width: 1600px) {
@@ -21117,6 +21129,10 @@ hr + .nk-block {
   }
   .nk-preview:first-child {
     padding-top: 180px;
+  }
+  .Code-with-युkti
+  {
+    margin: auto;
   }
 }
 
@@ -21128,6 +21144,10 @@ hr + .nk-block {
   .nk-preview-content > .tab-pane {
     box-shadow: 0 5px 35px -5px rgba(18, 24, 58, 0.12);
   }
+  .Code-with-युkti
+  {
+    margin: auto;
+  }
 }
 
 @media (min-width: 1200px) and (min-height: 900px) {
@@ -21135,6 +21155,10 @@ hr + .nk-block {
   .nk-preview .nk-pages-centered {
     min-height: calc(100vh - 200px);
   }
+  .Code-with-युkti
+  {
+    margin-right: auto;
+  } 
 }
 
 /* END @iO */
@@ -21157,11 +21181,74 @@ hr + .nk-block {
   margin-right: 160px;
 }
 
+.How-Does-it-works
+{
+  font-size: 50px;
+}
+.युkti-key-features
+{
+  font-size: 50px;
+  margin-right: 100px;
 
+}
+.Frequently-asked-questions
+{
+  margin-right: 400px;
+  /* font-size: 40px; */
+}
+.Your-Guide-to-Yukti-Features-and-Assistance
+{
+  margin-right: 150px;
+}
+.FAQ
+{
+  margin-right: 750px;
+  font-size: 30px;
+}
+.Features
+{
+  margin-right: 250px;
+  font-size: 20px;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+.Learn-Anything
+{
+  margin-right: 250px;
+  font-size: 17px;
+}
+.Chat-with-युkti
+{
+  margin-right: 330px
+}
+.Ask-Anything-Personal-Assistant
+{
+  margin-right: 150px;
+  font-size: 15px;
+}
+.Code-with-युkti
+{
+  margin-right: 300px;
+}
+.Personal-Developer
+{
+  margin-right: 300px;
+  font-size: 15px;
+}
+.Career-with-युkti
+{
+  margin-right: 270px;
+}
+.Get-Dream-Job{
+  margin-right:300px;
+  font-size: 15px;
+}
 
-
-
-
+.How
+{
+  margin-right: 350px;
+  font-size: 17px;
+}
 
 
 
